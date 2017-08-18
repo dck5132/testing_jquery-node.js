@@ -1,0 +1,98 @@
+code {
+    background-color: #e8e8e8;
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+    padding: 1pt 2pt;
+    margin: 2pt;
+    font-family: "source-code-pro", Consolas, monospace;
+    font-size: .9em
+}
+.list {
+    text-align: left
+}
+.example {
+    border: 5px solid gray;
+    background-color: #b3c8d0;
+    font-size:14pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    min-height: 200px
+}
+.img-3-4 {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.pClass {
+    color: green;
+    text-transform: uppercase;
+            
+}
+.evtbox {
+    border: 1px solid gray;
+    background-color: #b3c8d0;
+    font-size:14pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    min-height: 200px;
+    width: 235px;
+    overflow: auto;
+}
+.evtbox p {
+    margin: 0 1pt 0 2pt
+}
+.inline {
+    display: inline-block;
+}
+.lineitem {
+    width: 120px;
+    display: inline-block
+}
+.highlighted {
+    background-color: red;
+}
+.ajaxs {
+  padding: 5pt;
+  border: 2px dashed lightgray;
+}  
+#testDiv {
+	position: relative;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    background: #b3c8d0;
+    border: 1px solid black;
+    font-size: 16pt;
+    cursor: pointer
+}
+#eventDetails {
+    border: 1px solid #aaa;
+    margin-top: 8pt;
+    padding: 2pt;
+}
+#animButton {
+    height: 100px;
+    position: relative
+}
+#anim-4-4 {
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    padding: 20px;
+    background: #b3c8d0;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+#anim-4-5 {
+    position: relative;
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    padding: 20px;
+    background: #b3c8d0;
+    border: 1px solid black;
+    font-size: 16pt;
+    cursor: pointer;
+}        
+      

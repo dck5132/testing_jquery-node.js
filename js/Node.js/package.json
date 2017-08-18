@@ -1,0 +1,35 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "testing node.js",
+  "main": "async-demo.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "express": "^4.15.0",
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.1",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cheerio": "^0.22.0",
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "gulp": "^3.9.1",
+    "nock": "^9.0.7",
+    "rewire": "^2.5.2",
+    "sinon": "^1.17.7",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "predev": "grunt",
+    "dev": "xdg-open https://localhost:8080 & node-dev express-app & grunt watch"
+  },
+  "author": "Cyril",
+  "license": "ISC"
+}

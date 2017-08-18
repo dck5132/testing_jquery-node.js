@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include partials/page/head.ejs %>
+	</head>
+	<body class= "<%= classname %> ">
+		<header><% include partials/page/header.ejs %></header>
+		<div class = "container">
+			<h1><%= pageTitle %> <%= title %></h1>
+			<p> Sample test</p>
+			
+			<% if (typeof(users) !== "undefined") { %>
+				<ul>
+				<% for (var i=0;i<users.length;i++) { %>
+				<li><%= users[i] %></li>
+				<% } %>
+				</ul>
+			<% } %>
+		</div><!-- container -->
+		
+		<footer><% include partials/page/footer.ejs %></footer>
+		<% include partials/page/jsdefaults.ejs %>
+	</body>    
+</html>
+
+

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Cyril Shadow",
+    "delay": 1500,
+    "sayings": [
+      "Shadow.",
+      "Hello Tequilla Goodbye Problems.",
+      "Vokda.",
+      "Kalashnikov."
+    ]
+  },
+  {
+    "name": "Millay ",
+    "delay": 2500,
+    "sayings": [
+      "Fire.",
+      "Flame.",
+      "Burn.",
+      "Singe."
+    ]
+  }
+]
